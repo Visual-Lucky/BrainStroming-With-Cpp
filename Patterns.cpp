@@ -1,6 +1,50 @@
 #include<iostream>
 using namespace std;
 
+
+
+void diagonal_1_and_all_0() {
+    for (int i = 1; i <= 4; i++) {
+        for (int j =1; j <= 4; j++){
+            if (i == j) {
+                cout << "1";
+            }else {
+                cout << "0";
+            }
+        }
+        cout << endl;
+    }
+}
+
+void alternate_0_and_1() {
+    int evenx= 0, oddx = 1, x;
+    for (int i = 1; i <= 4; i++) {
+        if (i%2 == 0) x = evenx;
+        else x = oddx;
+
+        for (int j = 1; j <= i; j++) {
+            cout << x;
+            x = 1 - x;
+        }
+        cout << endl;
+    }
+
+}
+
+void hollow_square_stars() {
+    for (int i = 1; i <= 4; i++) {
+        for (int j = 1; j <= 4; j++) {
+            if ((i==2 || i ==3) && (j==2 || j==3)) {
+                cout<<" ";
+            }
+            else {
+                cout<<"*";
+            }
+        }
+        cout << endl;
+    }
+}
+
 void decre_counter() {
     int counter = 10;
     for (int i = 1; i <= 4; i++) {
@@ -21,6 +65,16 @@ void rev_incre_counter() {
         cout << endl;
     }
     cout << endl;
+}
+
+void nrml_inc_with_cntr() {
+    int counter = 1;
+    for (int i = 1; i <= 3; i++) {
+        for (int j =1; j <= 4; j++) {
+            cout << counter++ << " ";
+        }
+        cout << endl;
+    }
 }
 
 void incre_counter() {
@@ -77,6 +131,7 @@ void incre_pattern() {
 
 
 int main() {
+    //cout << "1" << endl;
     incre_pattern();
     decre_pattern();
     star_incre();
@@ -84,6 +139,9 @@ int main() {
     incre_counter();
     rev_incre_counter();
     decre_counter();
-
+    nrml_inc_with_cntr();
+    hollow_square_stars();
+    alternate_0_and_1();
+    diagonal_1_and_all_0();
     return 0;
 }
