@@ -1,7 +1,10 @@
 #include<iostream>
 using namespace std;
 int main() {
-    int height = 5, length=(height*2)-1;
+    int height;
+    cout << "Drop Height";
+    cin>>height;
+    int length=(height*2)-1;
     for (int i = 1; i <= height; i++) {
         if (i == height) {
             for (int j = 1; j <= length; j++) {
