@@ -1,25 +1,29 @@
 #include<iostream>
 using namespace std;
 int main() {
-    // * * * * *
-    //  * * * *
-    //   * * *
-    //    * *
-    //     *
-    int height = 10, counter = height;
-    for (int i = 1; i <= height; i++) {
-        for (int j = 1; j <= i-1; j++) {
-            cout << " ";
-        }
-        for (int j = counter; j > 0; j--) {
-            cout << "* ";
-        }
-        counter--;
-        cout << endl;
-    }
 
+    int a = 5;
+    cout << &a;
 return 0;
 }
+
+// // * * * * *
+// //  * * * *
+// //   * * *
+// //    * *
+// //     *
+// int height = 10, counter = height;
+// for (int i = 1; i <= height; i++) {
+//     for (int j = 1; j <= i-1; j++) {
+//         cout << " ";
+//     }
+//      for (int j = counter; j > 0; j--) {
+//         cout << "* ";
+//     }
+//     counter--;
+//     cout << endl;
+// }
+
 
 // // *
 // //  *
