@@ -1,10 +1,19 @@
 #include<iostream>
 using namespace std;
-int main() {
+int main(){
+    int binary, binaryarr[100], length=-1;
+    cout<<"Enter Binary Num:";
+    cin>>binary;
+    for(int i=0; binary>0 ; binary /= 10){
+        binaryarr[i] = binary%10;
+        length++;
+        i++;
+    }
+    for(int i=0; i<= length; i++){
+        cout<<binaryarr[i];
+    }
 
-    int a = 5;
-    cout << &a;
-return 0;
+    return 0;
 }
 
 // // * * * * *
