@@ -56,6 +56,7 @@ int mainmenu() {
 }
 
 void space();
+
 int main() {
     int choice = mainmenu();
 
@@ -143,7 +144,13 @@ int hexalInput() {
 int binarytoDecimalRAW(int n) {
     //here n is binary number
     int decimal[20];
-    
+    int length = -1;
+    for (int i=0; n>=0; n/=10) {
+        decimal[i] = n%10;
+        length++;
+        i++;
+    }
+
 }
 int decimaltoBinaryRAW(int n){}
 int decimaltoOctalRAW(int n){}
