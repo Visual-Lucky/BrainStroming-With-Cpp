@@ -1,48 +1,26 @@
 #include<iostream>
-#include <string>
+#include<windows.h>
 
 using namespace std;
 
-int decimalinput() {
-    int decimal;
-    cout << "Enter Decimal Number:";
-    cin >> decimal;
-    return decimal;
+void clearscreen(){
+    system("cls");
 }
 
-string decimal_binary(int decimal) {
-    string binary;
-    for (int i=0; decimal>0; decimal/=2) {
-        binary[i] = decimal%2;
-        i++;
-    }
-    return binary;
+void timer(){
+    Sleep(10000);  //10 Seconds
 }
 
-string decimal_octal(int decimal) {
-    string octal;
-    for (int i=0; decimal>0; decimal/=8) {
-        octal[i] = decimal%8;
-        i++;
-    }
-    return octal;
+void gotoxy(int x, int y) {
+    COORD coord;
+    coord.X = x;
+    coord.Y = y;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 }
 
-string decimal_hexal(int decimal) {
-    string hexal;
-    string HexaDecimal = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
-
-    for (int i=0; decimal>0; decimal/=16) {
-        hexal[i] = HexaDecimal[decimal%16];
-        i++;
-    }
-    return hexal;
-}
-
-
-int main() {
-    int decimal = decimalinput();
-    string binary = decimal_binary(decimal);
-    cout<<"Binary Number is :"<<binary;
+int main(){
+    cout<<"Hi i am here";
+    gotoxy(40,5);
+    cout<<"Now I am here:";
     return 0;
 }

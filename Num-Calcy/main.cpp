@@ -10,10 +10,10 @@ int decimaltoHexalRAW(int n);
 int hexaltoDecimalRAW(int n);
 
 //Inputs to all
-int binaryInput();
+string binaryInput();
 int octalInput();
 int decimalInput();
-int hexaInput();
+string hexaInput();
 
 //binary to all
 void binarytoOctal();
@@ -35,77 +35,7 @@ void hexaltoBinary();
 void hexaltoOctal();
 void hexaltoDecimal();
 
-int mainmenu() {
-    cout <<"dbdbdbdbdbdbdbdbdbdbdbdbddbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbddbdbdbdbdbdbdbdbdbdbdbdb"<<endl<<endl;
-    cout<<"\t\t\tWELCOME TO THE NUMBER CONVERTER \n\t\t\t\t\t\t\tdesigned by @Lucky"<<endl;
-    cout <<endl<<"*Binary Conv.[0-1]\t\t\t\t*Decimal Conv.[0-9]"<<endl;
-    cout<<"[1] Binary to Octal.\t\t\t\t[7] Decimal to Binary."<<endl;
-    cout<<"[2] Binary to Decimal.\t\t\t\t[8] Decimal to Octal."<<endl;
-    cout<<"[3] Binary to Hexal.\t\t\t\t[9] Decimal to Hexal."<<endl<<endl;
-    cout<<"*Octal Conv.[0-7]\t\t\t\t*Hexal Conv.[0-9,a-f(10-15)]"<<endl;
-    cout<<"[4] Octal to Binary.\t\t\t\t[10] Hexal to Binary."<<endl;
-    cout<<"[5] Octal to Decimal.\t\t\t\t[11] Hexal to Octal."<<endl;
-    cout<<"[6] Octal to Hexal.\t\t\t\t[12] Hexal to Decimal"<<endl<<endl;
-    cout<<"[13] No More Conversion!!"<<endl;
-    int choice;
-    cout<<endl<<"Your Choice :";
-    cin>>choice;
-    cout <<""<<endl;
 
-    return choice;
-}
-
-void space();
-
-int main() {
-    int choice = mainmenu();
-
-    switch(choice) {
-        case 1: binarytoOctal();
-            space();
-            break;
-        case 2: binarytoDecimal();
-            space();
-            break;
-        case 3: binarytoHexal();
-            space();
-            break;
-        case 4: octaltoBinary();
-            space();
-            break;
-        case 5: octaltoDecimal();
-            space();
-            break;
-        case 6: octaltoHexal();
-            space();
-            break;
-        case 7: decimaltoBinary();
-            space();
-            break;
-        case 8: decimaltoOctal();
-            space();
-            break;
-        case 9: decimaltoHexal();
-            space();
-            break;
-        case 10: hexaltoBinary();
-            space();
-            break;
-        case 11: hexaltoOctal();
-            space();
-            break;
-        case 12: hexaltoDecimal();
-            space();
-            break;
-        case 13: cout<<"Tq for Choosing us!";
-            break;
-        default: cout<<"Correct Choice Must Be Chosen!!"<<endl;
-            space();
-            main();
-    }
-
-    return 0;
-}
 
 void space() {
     int space=10;
@@ -115,7 +45,7 @@ void space() {
 }
 
 //Input for all
-int binaryInput() {
+string binaryInput() {
     int binary;
     cout << "Enter Binary Number:";
     cin >> binary;
@@ -133,11 +63,11 @@ int decimalInput() {
     cin >> decimal;
     return decimal;
 }
-int hexalInput() {
+string hexalInput() {
     int hexal;
     cout << "Enter Hexal Number:";
     cin >> hexal;
-    return hexal;
+
 }
 
 //Main Operands
