@@ -1,3 +1,5 @@
+//using ASCII VALUE 
+
 #include<iostream>
 using namespace std;
 
