@@ -5,12 +5,22 @@
 using namespace std;
 
 int main(){
+//19. Remove all duplicate characters.
+    string sample;
+    cout << "Drop a String: ";
+    getline(cin, sample);
 
-string sample;
-cout<<"Drop a String:";
-getline(cin,sample);
+    for (int i = 0; i < sample.length(); i++) {
+        for (int j = i + 1; j < sample.length(); ) {
+            if (sample[j] == sample[i]) {
+                sample.erase(j, 1); // Don't increment j here
+            } else {
+                j++; // Only move j forward if nothing was erased
+            }
+        }
+    }
 
-
+    cout << "After removing duplicates: " << sample << endl;
 
     return 0;
 }
@@ -152,7 +162,125 @@ cout<<"Freq of your Char is : "<<freq;
 // }
 
 
+13. Remove all whitespaces from a string.
+    //13. Remove all whitespaces from a string.
+string sample;
+cout<<"Drop a String:";
+getline(cin,sample);
 
+// for(int i=0; i<sample.length(); i++){
+    // if(sample[i] == ' '){
+sample.erase(remove_if(sample.begin(), sample.end(), [](char c) { return isspace(c); }), sample.end());
+        // sample.erase(i);    // char temp;// temp = temp + sample[i];
+        // // sample[i] = sample[i+1];// sample[i+1] = temp;
+    // }
+// }
+cout<<"After removing Whitespaces : "<<sample;
+
+14. Find the first non-repeating character.
+    string sample;
+    cout << "Drop a String: ";
+    getline(cin, sample);
+
+    bool found = false;
+
+    for (int i = 0; i < sample.length(); i++) {
+        char temp = sample[i];
+        bool isUnique = true;
+
+        for (int j = 0; j < sample.length(); j++) {
+            if (i != j && sample[j] == temp) {
+                isUnique = false;
+                break;
+            }
+        }
+
+        if (isUnique) {
+            cout << "First Non-Repeating Char: " << temp << endl;
+            found = true;
+            break;
+        }
+    }
+
+    if (!found) {
+        cout << "All Characters are Repeating" << endl;
+    }
+
+    //15. Replace all spaces with hyphens.    
+    string sample;
+    cout << "Drop a String: ";
+    getline(cin, sample);
+
+    for(int i=0; i<sample.length(); i++){
+        if(sample[i] == ' '){
+            sample[i] = '-';
+        }
+    }
+
+    cout << sample;
+
+//16. Toggle each character’s case.    
+    string sample;
+    cout << "Drop a String: ";
+    getline(cin, sample);
+
+for(int i=0; i<sample.length(); i++){
+    if(sample[i] >= 65 && sample[i] <= 90){
+        sample[i] = (char)tolower(sample[i]);
+    }
+
+    else if(sample[i] >= 97 && sample[i] <= 122){
+        sample[i] = (char)toupper(sample[i]);
+    }
+}
+cout<<"After Operation :"<<sample<<endl;
+//17. Count number of words in a sentence.
+    string sample;
+    cout << "Drop a String: ";
+    getline(cin, sample);
+
+    int words = 0;
+    for(int i=0; i<sample.length(); i++){
+        if(sample.empty()){
+            break;
+            }
+        else if(sample[i] == ' '){
+            words++;
+        }
+    }
+    if(!sample.empty()){
+        cout<<"Total Words in Your String is : "<<words+1;
+    }
+    else{
+         cout<<"Total Words in Your String is : "<<words;
+    }
+
+    //18. Check if two strings are anagrams.
+    string sample1, sample2;
+
+    cout << "Drop 1st String: ";
+    getline(cin, sample1);
+
+    cout << "Drop 2nd String: ";
+    getline(cin, sample2);
+
+if (sample1.length() != sample2.length()){
+        cout<<"Not Anargm!";
+    }   
+else{ 
+    transform(sample1.begin(), sample1.end(), sample1.begin(), ::tolower);
+    transform(sample2.begin(), sample2.end(), sample2.begin(), ::tolower);
+
+    sort(sample1.begin(), sample1.end());
+    sort(sample2.begin(), sample2.end());
+    if(sample1 == sample2){
+        cout<<"Anargm";
+    }
+    else{
+        cout<<"Not Anargm!";
+    }
+
+}
 
 
 */
