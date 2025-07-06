@@ -211,14 +211,6 @@ void Category3(){}
 
 void Category4(){}
 
-void clearscreen() {
-    system("cls");
-}
-
-void space() {
-    Sleep(1000);
-}
-
 int main() {
     int choice;
 cout << endl << "Which Category you want to Execute"<<endl;
@@ -259,4 +251,12 @@ cout << "Drop your choice here :";
             clearscreen();
             return main();
     }
+}
+
+void clearscreen() {
+    system("cls");
+}
+
+void space() {
+    Sleep(1000);
 }
