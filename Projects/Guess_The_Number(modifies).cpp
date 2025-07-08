@@ -75,11 +75,12 @@ int main() {
 
 
             if (target > randomNum) {
-                cout<<"\nGussed num is BIG!"<<endl;
+                cout<<"\nYour Gussed num is BIG!"<<endl;
                 counter--;
             }
             else if (target < randomNum) {
-                cout<<"\nGussed num is small!"<<endl;
+                cout<<"\nYour "
+                      "Gussed num is small!"<<endl;
                 counter--;
             }
             else if (target == randomNum) {

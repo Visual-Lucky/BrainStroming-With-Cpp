@@ -1,0 +1,1 @@
+Now print values in the row using val
