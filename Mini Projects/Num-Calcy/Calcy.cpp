@@ -12,7 +12,7 @@ string hexalinput();
 //Main Operations:
 int binary_decimal(string binary);
 int octal_decimal(string octal);
-int hexal_decimal(string hexal);
+int hexal_decimal(const string &hexal);
 string decimal_binary(int decimal);
 string decimal_octal(int decimal);
 string decimal_hexal(int decimal);
@@ -180,7 +180,7 @@ int octal_decimal(string octal) {
     return decimal;
 }
 
-int hexal_decimal(string hexal) {
+int hexal_decimal(const string &hexal) {
     int decimal = 0;
     int base = 1;
     for (int i=hexal.length()-1; i>=0; i--) {

@@ -1,3 +1,4 @@
+// on this day we got knowledge about do while loop and patterns.
 #include<iostream>
 using namespace std;
 
