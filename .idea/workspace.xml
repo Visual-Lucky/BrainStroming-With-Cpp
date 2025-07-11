@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppTypeNameHintsOptions" type="string" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ae40419-0978-4b0b-9f59-19a47345c3ab" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2yEtYp9A019SpddK2lA9DzteVGj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.Basic_Array.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Calcy.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Check.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Class1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Complements.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day10.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day11.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day15.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day17.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day18.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day3.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day4.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day5.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day6.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day7.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day8.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Day9.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Fibonnaci.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.GitHub_Patterns.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Github_Arays.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Guess_The_Number(modifies).cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Guess_The_Number.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Linear_Search.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Pascal_Tree.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Pascal_Tree_2.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Pattern1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Patterns.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q10.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q11.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q127.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q2.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q3.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q4.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q5.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q6.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q7.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q8.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q9.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.String.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Struct1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Test.cpp (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Test.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.While20.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.fileHandling.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.struct2.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/CLionProjects&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3432836&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="C/C++ File.Complements.cpp">
+    <configuration name="Complements.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="Complements.cpp" CONFIG_NAME="Complements.cpp">
+      <option name="sourceFile" value="Array\Complements.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day15.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="Day15.cpp" CONFIG_NAME="Day15.cpp">
+      <option name="sourceFile" value="Day(s)\Day15.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day17.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="Day17.cpp" CONFIG_NAME="Day17.cpp">
+      <option name="sourceFile" value="Day(s)\Day17.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day18.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="Day18.cpp" CONFIG_NAME="Day18.cpp">
+      <option name="sourceFile" value="Day(s)\Day18.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day3.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="-" TARGET_NAME="Day3.cpp" CONFIG_NAME="Day3.cpp">
+      <option name="sourceFile" value="Day3.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Linear_Search.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="Linear_Search.cpp" CONFIG_NAME="Linear_Search.cpp">
+      <option name="sourceFile" value="Array\Linear_Search.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.Complements.cpp" />
+        <item itemvalue="C/C++ File.Day18.cpp" />
+        <item itemvalue="C/C++ File.Day17.cpp" />
+        <item itemvalue="C/C++ File.Linear_Search.cpp" />
+        <item itemvalue="C/C++ File.Day15.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ae40419-0978-4b0b-9f59-19a47345c3ab" name="Changes" comment="" />
+      <created>1749411611797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749411611797</updated>
+      <workItem from="1749411614156" duration="3338000" />
+      <workItem from="1749571566298" duration="16497000" />
+      <workItem from="1749624638914" duration="255000" />
+      <workItem from="1749651620893" duration="695000" />
+      <workItem from="1749664991233" duration="6266000" />
+      <workItem from="1749671445885" duration="672000" />
+      <workItem from="1749798355447" duration="4656000" />
+      <workItem from="1749839220491" duration="251000" />
+      <workItem from="1750092664495" duration="6273000" />
+      <workItem from="1750260540589" duration="32000" />
+      <workItem from="1750317835349" duration="4202000" />
+      <workItem from="1750343257640" duration="790000" />
+      <workItem from="1750344750195" duration="1469000" />
+      <workItem from="1750354501878" duration="7587000" />
+      <workItem from="1750435885929" duration="5691000" />
+      <workItem from="1750444795797" duration="4367000" />
+      <workItem from="1750515947040" duration="1716000" />
+      <workItem from="1750525051276" duration="1207000" />
+      <workItem from="1750669428071" duration="1378000" />
+      <workItem from="1750692895873" duration="2530000" />
+      <workItem from="1750747768259" duration="89000" />
+      <workItem from="1750750761135" duration="3269000" />
+      <workItem from="1750784590333" duration="907000" />
+      <workItem from="1750842784182" duration="1813000" />
+      <workItem from="1750948824613" duration="51000" />
+      <workItem from="1751039476957" duration="456000" />
+      <workItem from="1751089569473" duration="290000" />
+      <workItem from="1751095307167" duration="28000" />
+      <workItem from="1751206213526" duration="21000" />
+      <workItem from="1751206268453" duration="1624000" />
+      <workItem from="1751265729927" duration="70000" />
+      <workItem from="1751266053586" duration="5941000" />
+      <workItem from="1751289199805" duration="303000" />
+      <workItem from="1751290425295" duration="239000" />
+      <workItem from="1751292952722" duration="351000" />
+      <workItem from="1751347737194" duration="2147000" />
+      <workItem from="1751647386967" duration="622000" />
+      <workItem from="1751650700425" duration="2461000" />
+      <workItem from="1751654034621" duration="1247000" />
+      <workItem from="1751659140484" duration="303000" />
+      <workItem from="1751691097871" duration="10600000" />
+      <workItem from="1751735053116" duration="6985000" />
+      <workItem from="1751786774227" duration="5036000" />
+      <workItem from="1751868444856" duration="8353000" />
+      <workItem from="1751957605875" duration="1314000" />
+      <workItem from="1751962373978" duration="4347000" />
+      <workItem from="1751980939521" duration="814000" />
+      <workItem from="1751999901500" duration="180000" />
+      <workItem from="1752000110306" duration="7707000" />
+      <workItem from="1752128692701" duration="295000" />
+      <workItem from="1752129092054" duration="1587000" />
+      <workItem from="1752130702623" duration="13000" />
+      <workItem from="1752130771769" duration="625000" />
+      <workItem from="1752216142114" duration="19000" />
+      <workItem from="1752216353556" duration="5217000" />
+      <workItem from="1752221735713" duration="1585000" />
+      <workItem from="1752250489723" duration="12004000" />
+      <workItem from="1752264598650" duration="1733000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
