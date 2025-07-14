@@ -13,8 +13,8 @@ public:
     void getdata() {
         cout<<"Drop Size:";
         cin>>size;
-        cin.ignore();
         cout<<"Drop Name:";
+        cin.ignore();
         cin.getline(name, 15);
     }
     void showdata() const {

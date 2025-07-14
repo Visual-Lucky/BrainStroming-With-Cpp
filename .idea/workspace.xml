@@ -46,6 +46,10 @@
     "C/C++ File.66.cpp.executor": "Run",
     "C/C++ File.67.cpp.executor": "Run",
     "C/C++ File.68.cpp.executor": "Run",
+    "C/C++ File.71.cpp.executor": "Run",
+    "C/C++ File.72.cpp.executor": "Run",
+    "C/C++ File.75.cpp.executor": "Run",
+    "C/C++ File.76.cpp.executor": "Run",
     "C/C++ File.83.cpp.executor": "Run",
     "C/C++ File.92.cpp.executor": "Run",
     "C/C++ File.Basic_Array.cpp.executor": "Run",
@@ -123,33 +127,33 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.83.cpp">
-    <configuration name="67.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="67.cpp" CONFIG_NAME="67.cpp">
-      <option name="sourceFile" value="File_Handling\Problems\67.cpp" />
+  <component name="RunManager" selected="C/C++ File.76.cpp">
+    <configuration name="71.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="71.cpp" CONFIG_NAME="71.cpp">
+      <option name="sourceFile" value="File_Handling\Problems\71.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="68.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="68.cpp" CONFIG_NAME="68.cpp">
-      <option name="sourceFile" value="File_Handling\Problems\68.cpp" />
+    <configuration name="72.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="72.cpp" CONFIG_NAME="72.cpp">
+      <option name="sourceFile" value="File_Handling\Problems\72.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="75.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="75.cpp" CONFIG_NAME="75.cpp">
+      <option name="sourceFile" value="File_Handling\Problems\75.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="76.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="76.cpp" CONFIG_NAME="76.cpp">
+      <option name="sourceFile" value="File_Handling\Problems\76.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="83.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="83.cpp" CONFIG_NAME="83.cpp">
       <option name="sourceFile" value="File_Handling\Problems\83.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="92.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="92.cpp" CONFIG_NAME="92.cpp">
-      <option name="sourceFile" value="File_Handling\Problems\92.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CharArray1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLionProjects" TARGET_NAME="CharArray1.cpp" CONFIG_NAME="CharArray1.cpp">
-      <option name="sourceFile" value="Char_Array\CharArray1.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -162,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.76.cpp" />
+        <item itemvalue="C/C++ File.75.cpp" />
+        <item itemvalue="C/C++ File.72.cpp" />
+        <item itemvalue="C/C++ File.71.cpp" />
         <item itemvalue="C/C++ File.83.cpp" />
-        <item itemvalue="C/C++ File.92.cpp" />
-        <item itemvalue="C/C++ File.68.cpp" />
-        <item itemvalue="C/C++ File.CharArray1.cpp" />
-        <item itemvalue="C/C++ File.67.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +247,7 @@
       <workItem from="1752404890889" duration="4566000" />
       <workItem from="1752424658533" duration="3433000" />
       <workItem from="1752432853291" duration="4260000" />
+      <workItem from="1752462359181" duration="15305000" />
     </task>
     <servers />
   </component>
