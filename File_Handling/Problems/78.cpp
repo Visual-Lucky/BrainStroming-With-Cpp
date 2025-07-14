@@ -4,14 +4,17 @@
 #include <string>
 #include <algorithm>
 using namespace std;
-
+/*
+Creates  Fn that rease content from file &
+create a file named basket.dat
+that conains only BASKET game
+*/
 struct Game {
     char gameName[20];
-    char participant[];
+    string participantName;
 };
 
 int main() {
-    cout << "What's Up Boii" << endl;
     Game game;
     fstream f;
     f.open("game.dat", ios::out | ios::binary);
@@ -19,8 +22,3 @@ int main() {
 
     return 0;
 }
-/*
-Creates  Fn that rease content from file &
-create a file named basket.dat
-that conains only BASKET game
-*/
