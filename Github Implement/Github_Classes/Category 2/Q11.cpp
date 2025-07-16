@@ -2,45 +2,53 @@
 //name, salary. Input 5 records,
 //display those with salary > 50K.
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class Employee {
-public:
     string name;
-    int salary = 0;
+    int salary;
+public:
+    string getName(){
+        return name;
+    } 
+    int getSalary(){
+        return salary;
+    }
     void input() {
         cout<<"Enter Name : ";
         getline(cin, name);
         cout<<"Enter Salary : ";
         cin>>salary;
+        cin.ignore();
     }
-    void output() const {
-        cout<<"Name : "<<name;
-        cout<<"Salary : "<<salary;
+    void output() {
+        cout<<endl<<"Name : "<<name;
+        cout<<"Salary : "<<salary<<endl;
     }
 };
 
 int main() {
-
-    Employee emp[5];
-    string arr[5];
+    int size = 3;
+    Employee emp[size];
+    string arr[size];
     //for input
-    for (int i=0; i<5; i++) {
+    for (int i=0; i<size; i++) {
         emp[i].input();
-        if (emp[i].salary > 50000) {
-            arr[i] = emp[i].name;
+        if (emp[i].getSalary() > 50000) {
+            arr[i] = emp[i].getName();
         }
     }
 
-    for (int i=0; i<5; i++) {
+    cout<<"\nEmployees that get paid by more than 50k:\nEmployee :> ";
+    for (int i=0; i<size; i++) {
         cout<<arr[i]<<" ";
     }
 
     //for output
-    // for (int i=0; i<5; i++) {
-    //     emp[i].output();
-    // }
+    for (int i=0; i<size; i++) {
+        emp[i].output();
+    }
 
     return 0;
 }
