@@ -273,12 +273,18 @@ void updateUser(){
 
 }
 
+string enterPassword(){
+    string passsword = getSafePassword();
+        return passsword;
+}
+
 void updatePassword(string ID){
     string password;
     cout<<"\nEnter Old Pasword : ";
     password = getSafePassword();
 
     bool isPassValid = false;
+    bool passtaken = false;
     fstream f;
 
     f.open("user_data.dat", ios::in | ios::binary);
@@ -289,18 +295,36 @@ void updatePassword(string ID){
     }
     f.close();
 
+
     if(isPassValid){
         cout<<"Enter New PassWord :";
         getline(cin, password);
-        f.open("user_data.dat", ios::in | ios::binary);
-        // while(){
-
-        // }
-        f.close();
+        passtaken = true;
     }else{
-        cout<<"Please Provide Valid Passwors!";
+        cout<<"Please Provide Valid Password!";
     }
 
+
+    if(passtaken){
+        fstream f_temp;
+        f.open("user_data.dat", ios::in | ios::binary);
+        f_temp.open("Temp_data.dat", ios::out | ios::binary);
+
+        while(f.read((char*)this, sizeof(*this))){
+            if(ID == getUserID()){
+                
+            }else{
+                f_temp.write((char*)this, sizeof(*this));
+            }
+        }
+
+
+        f_temp.close();
+        f.close();
+
+        remove("user_data.dat");        
+        rename("temp_data.dat", "user_data.dat");
+    }
 }
 
 void updateUserName(string ID){}
