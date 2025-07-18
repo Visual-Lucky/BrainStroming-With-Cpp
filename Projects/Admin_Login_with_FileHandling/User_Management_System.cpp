@@ -5,60 +5,84 @@
 
 using namespace std;
 
+int UserCount = 1;
+
 class User{
-    string userID;
-    string userName;
-    string password;
-    string contactNo;
+    char userID[8];
+    char userName[20];
+    char password[12];
+    char contactNo[12];
+
 public:
 //Constructor
     User(){
-           userID = "USER000";
-         userName = "Admin";
-         password = "Admin@1234";
-        contactNo = "0000000000";
-        // cout<<"\nConstructor CALLED OUT";
+        strcpy(userID, "UMS000");
+        strcpy(userName, "Admin");
+        strcpy(password, "Admin@1234");
+        strcpy(contactNo, "0000000000");
+        //addAdmin();
     }
+
     void addAdmin(){
         fstream f;
-        f.open("user_data.dat", ios::out | ios::binary);
+        f.open("user_data.dat", ios::app | ios::binary);
         f.write((char*)this, sizeof(*this));
         f.close();
         // cout<<"\naddAdmin CALLED OUT";
     }
+
 //Destructor
     ~User(){
         // cout<<"\nDestructor CALLED";
     }
+
 // Functions that Returns the User Info
     string getUserID(){
-        return userID;
+        return string(userID);
     }
     string getUserName(){
         // cout<<"\ngetUserName CALLED";
-        return userName;
+        return string(userName);
     }
     string getContactNo(){
-        return contactNo;
+        return string(contactNo);
     }
     string getPassword(){
         // cout<<"\ngetUserPassword CALLED";
-        return password;
+        return string(password);
     }
-// Functions that does Operations     
+
+// Functions that Shows User     
     void showUser(){
         cout<<endl<<"ID : "<<userID<<", Name : "<<userName<<" & Contact No : "<<contactNo<<".\n";
     }
     void addUser(){
         cout<<"Enter UserName :";
-        getline(cin, userName);
+        cin.getline(userName, 20);
 
         cout<<"Enter Contact No. :";
-        getline(cin, contactNo);
+        cin.getline(contactNo, 12);
 
-        password = getSafePassword(); // takes password Silently
-        // cout<<"Enter UserName :";
-        // getline(cin, userName);
+        cout<<"\nPassWord Should contains 10 Characters & Must be Strong\n";
+        string passwordCopy = getSafePassword();
+        strcpy(password, passwordCopy.c_str());
+
+        string ID = "";
+
+        if(UserCount <= 9 && UserCount >= 1){
+            ID = "UMS00";
+        }
+        else if(UserCount <= 99 && UserCount >= 10){
+            ID = "UMS0";
+        }
+        else{
+            ID = "UMS";
+        }
+
+        string fullID = ID + to_string(UserCount);  // "UMS1"
+        strcpy(userID, fullID.c_str());
+        UserCount++;
+
     }
     void addUserToFile(){
         char loopBreaker;
@@ -74,7 +98,7 @@ public:
 
         fileOperator.close();
 
-        cout<<"\nData Stored \033[32mSuccessfully\033[0m .";
+        //cout<<"\nData Stored \033[32mSuccessfully\033[0m .";
         // cout<<"\naddUserToFile CALLED OUT";
     }
 
@@ -168,7 +192,7 @@ public:
         fileOperator.open("user_data.dat", ios::in | ios::binary);
         while(fileOperator.read((char*)this, sizeof(*this)))
         {
-            this->showUsers();
+            showUsers();
         }
         fileOperator.close();
     }
@@ -401,7 +425,6 @@ void mainMenu() {
 
 int main(){
     User user;
-    user.addAdmin();
 
     bool isValid = user.authenticateUser();
     
